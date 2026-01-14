@@ -47,7 +47,7 @@ Route::middleware(['auth:sanctum', 'is_admin'])->group(function () {
     
     // manajemen mobil
     Route::post('/mobil', [MobilController::class, 'store']);
-    Route::post('/mobil/{mobil}', [MobilController::class, 'update']);
+    Route::post('/mobil/{mobil}', [MobilController::class, 'update']); 
     Route::delete('/mobil/{mobil}', [MobilController::class, 'delete']);
     
     // manajemen sewa
