@@ -57,7 +57,7 @@ Sebelum meng-clone dipastikan sudah memiliki composer.
 Clone project dan jalankan secara lokal dengan perintah berikut:
 
 ```bash
-1. git clone https://github.com/LavinaCaco/rentaliqra.git
+1. git clone https://github.com/HisyamAlammar/Website-RentalIqra.git
 2. masuk ke rentaliqra-backend menggunakan cd rentaliqra-backend kemudian copy code dibawah
    - composer install
    - php artisan key:generate
